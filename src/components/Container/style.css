@@ -2,14 +2,20 @@
 body {
     display: flex;
     justify-content: center;
-    align-content: space-around;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
 }
 
 .container {
-    background-color: rgba(210,210,210, .7);
-    width: 95vw;
-    height: 85vh;
-    border: 2px solid #a2a2a2;
     
+    width: 95vw;
+    height: 95vh;
+    border: 2px solid #a2a2a2;  
+    background-image: url("../../../public/abstract_wireframe_polygon.png");
+    background-repeat: no-repeat;
+    background-size: 95vw 95vh;
+
+   
     
 }
