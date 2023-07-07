@@ -1,0 +1,15 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.container {
+    background-color: rgba(210,210,210, .7);
+    width: 95vw;
+    height: 85vh;
+    border: 2px solid #a2a2a2;
+    
+    
+}
